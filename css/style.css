@@ -1,0 +1,145 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+     background: url('../images/notebook.png');
+     color: #000000;
+     font-family: 'lato', sans-serif;
+     line-height: 1.7;
+     font-size: 100%;
+}
+
+h1 {
+     letter-spacing: _5px;
+     font-size: 55px;
+     margin-bottom: 8px;
+     }
+
+h2 {
+     font-size: 32px;
+     margin: 0;
+}
+
+p {padding: 5px;}
+
+a {
+     color: #FFA856;
+     text-decoration: none;
+     font-weight: inherit;
+}
+
+blockquote {
+     border-left: 5px #BBB solid;
+     padding-left: 10px;
+     margin-left: 0;
+     font-style: italic;
+}
+
+footer {font-size: 12px;}
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+.container {margin: 0 auto 0 auto; width: 950px;}
+
+.main {
+     width: 600px; 
+     float: left;
+     background: #FFF;
+     padding: 25px;
+     margin-right: 10px;
+     font-size: 12px;
+     }
+
+.sidebar {
+     width: 340px;
+     float: left;
+     background: #FFF;
+     padding: 25px;
+     border-left: 3px solid #BBB;
+     border-bottom: 3px solid #BBB;
+}
+
+
+
+.widget img {border-radius: 500px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+.tagline { 
+     margin-top: -30px;
+     margin-bottom: 30px; }
+
+
+.widget {
+     margin-bottom: 45px;
+}
+
+
+.post {
+     margin-bottom: 50px;
+}
+
+.post-meta {
+     color: #BCBCBC;
+     padding: 10px;
+     border-top: #BBB solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
